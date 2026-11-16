@@ -1,0 +1,9 @@
+{
+  "model": "/root/models/Qwen2.5-7B-Instruct",
+  "adapter": "/root/models/Qwen2.5-7B-Instruct_lora_sft_v2_r16_qv_lr5e-5/iter_0001999/adapter",
+  "data": "/root/own/data/math_eval_l3_4_core_eval600_seed6060.jsonl",
+  "output": "/root/own/report/eval_7b_lora_r16_qv_lr5e-5_600.jsonl",
+  "correct": 243,
+  "total": 600,
+  "accuracy": 0.405
+}

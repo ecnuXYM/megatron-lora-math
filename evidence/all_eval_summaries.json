@@ -1,0 +1,306 @@
+[
+  {
+    "file": "eval_7b_base_10.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": null,
+    "correct": 4,
+    "total": 10,
+    "accuracy": 0.4
+  },
+  {
+    "file": "eval_7b_base_600.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": null,
+    "correct": 410,
+    "total": 600,
+    "accuracy": 0.6833333333333333
+  },
+  {
+    "file": "eval_7b_base_model_lora_v1_r16_qv_lr1e-5_iter0499_30.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_v1_r16_qv_lr1e-5/iter_0000499/adapter",
+    "correct": 4,
+    "total": 30,
+    "accuracy": 0.13333333333333333
+  },
+  {
+    "file": "eval_7b_base_model_lora_v1_r16_qv_lr1e-5_iter0999_30.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_v1_r16_qv_lr1e-5/iter_0000999/adapter",
+    "correct": 3,
+    "total": 30,
+    "accuracy": 0.1
+  },
+  {
+    "file": "eval_7b_base_plain_lora_v2_r16_qv_lr1e-5_iter0499_100.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_plain_v2_r16_qv_lr1e-5/iter_0000499/adapter",
+    "correct": 43,
+    "total": 100,
+    "accuracy": 0.43
+  },
+  {
+    "file": "eval_7b_base_plain_lora_v2_r16_qv_lr1e-5_iter0499_30.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_plain_v2_r16_qv_lr1e-5/iter_0000499/adapter",
+    "correct": 13,
+    "total": 30,
+    "accuracy": 0.43333333333333335
+  },
+  {
+    "file": "eval_7b_base_plain_lora_v2_r16_qv_lr1e-5_iter0499_600.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_plain_v2_r16_qv_lr1e-5/iter_0000499/adapter",
+    "correct": 271,
+    "total": 600,
+    "accuracy": 0.45166666666666666
+  },
+  {
+    "file": "eval_7b_base_plain_lora_v2_r16_qv_lr1e-5_iter0999_30.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_plain_v2_r16_qv_lr1e-5/iter_0000999/adapter",
+    "correct": 11,
+    "total": 30,
+    "accuracy": 0.36666666666666664
+  },
+  {
+    "file": "eval_7b_base_plain_lora_v2_r16_qv_lr1e-5_iter1499_30.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_plain_v2_r16_qv_lr1e-5/iter_0001499/adapter",
+    "correct": 11,
+    "total": 30,
+    "accuracy": 0.36666666666666664
+  },
+  {
+    "file": "eval_7b_base_plain_lora_v2_r16_qv_lr1e-5_iter1999_30.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_plain_v2_r16_qv_lr1e-5/iter_0001999/adapter",
+    "correct": 10,
+    "total": 30,
+    "accuracy": 0.3333333333333333
+  },
+  {
+    "file": "eval_7b_base_plain_lora_v2_r32_qv_lr1e-5_iter0499_30.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_plain_v2_r32_qv_lr1e-5/iter_0000499/adapter",
+    "correct": 11,
+    "total": 30,
+    "accuracy": 0.36666666666666664
+  },
+  {
+    "file": "eval_7b_base_plain_lora_v2_r32_qv_lr1e-5_iter0999_30.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_plain_v2_r32_qv_lr1e-5/iter_0000999/adapter",
+    "correct": 11,
+    "total": 30,
+    "accuracy": 0.36666666666666664
+  },
+  {
+    "file": "eval_7b_base_plain_lora_v2_r32_qv_lr1e-5_iter1499_30.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_plain_v2_r32_qv_lr1e-5/iter_0001499/adapter",
+    "correct": 10,
+    "total": 30,
+    "accuracy": 0.3333333333333333
+  },
+  {
+    "file": "eval_7b_base_plain_lora_v2_r32_qv_lr1e-5_iter1999_30.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_plain_v2_r32_qv_lr1e-5/iter_0001999/adapter",
+    "correct": 12,
+    "total": 30,
+    "accuracy": 0.4
+  },
+  {
+    "file": "eval_7b_base_plain_lora_v2_r8_qv_lr1e-5_iter0499_30.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_plain_v2_r8_qv_lr1e-5/iter_0000499/adapter",
+    "correct": 11,
+    "total": 30,
+    "accuracy": 0.36666666666666664
+  },
+  {
+    "file": "eval_7b_base_plain_lora_v2_r8_qv_lr1e-5_iter0999_30.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_plain_v2_r8_qv_lr1e-5/iter_0000999/adapter",
+    "correct": 11,
+    "total": 30,
+    "accuracy": 0.36666666666666664
+  },
+  {
+    "file": "eval_7b_base_plain_lora_v2_r8_qv_lr1e-5_iter1499_30.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_plain_v2_r8_qv_lr1e-5/iter_0001499/adapter",
+    "correct": 12,
+    "total": 30,
+    "accuracy": 0.4
+  },
+  {
+    "file": "eval_7b_base_plain_lora_v2_r8_qv_lr1e-5_iter1999_100.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_plain_v2_r8_qv_lr1e-5/iter_0001999/adapter",
+    "correct": 44,
+    "total": 100,
+    "accuracy": 0.44
+  },
+  {
+    "file": "eval_7b_base_plain_lora_v2_r8_qv_lr1e-5_iter1999_30.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_plain_v2_r8_qv_lr1e-5/iter_0001999/adapter",
+    "correct": 13,
+    "total": 30,
+    "accuracy": 0.43333333333333335
+  },
+  {
+    "file": "eval_7b_base_plain_lora_v2_r8_qv_lr1e-5_iter1999_600.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": "/root/models/Qwen2.5-7B_lora_sft_base_plain_v2_r8_qv_lr1e-5/iter_0001999/adapter",
+    "correct": 275,
+    "total": 600,
+    "accuracy": 0.4583333333333333
+  },
+  {
+    "file": "eval_7b_base_plain_raw_100.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": null,
+    "correct": 24,
+    "total": 100,
+    "accuracy": 0.24
+  },
+  {
+    "file": "eval_7b_base_plain_raw_30.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": null,
+    "correct": 6,
+    "total": 30,
+    "accuracy": 0.2
+  },
+  {
+    "file": "eval_7b_base_plain_raw_600.summary.json",
+    "model": "Qwen2.5-7B",
+    "adapter": null,
+    "correct": 201,
+    "total": 600,
+    "accuracy": 0.335
+  },
+  {
+    "file": "eval_7b_instruct_diag_r16_fusedqkv_lr1e-6_iter0249_30.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": "/root/models/Qwen2.5-7B-Instruct_lora_sft_diag_r16_fusedqkv_lr1e-6/iter_0000249/adapter",
+    "correct": 18,
+    "total": 30,
+    "accuracy": 0.6
+  },
+  {
+    "file": "eval_7b_instruct_diag_r16_fusedqkv_lr1e-6_iter0999_30.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": "/root/models/Qwen2.5-7B-Instruct_lora_sft_diag_r16_fusedqkv_lr1e-6/iter_0000999/adapter",
+    "correct": 18,
+    "total": 30,
+    "accuracy": 0.6
+  },
+  {
+    "file": "eval_7b_instruct_diag_r16_fusedqkv_lr1e-6_iter1999_100.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": "/root/models/Qwen2.5-7B-Instruct_lora_sft_diag_r16_fusedqkv_lr1e-6/iter_0001999/adapter",
+    "correct": 60,
+    "total": 100,
+    "accuracy": 0.6
+  },
+  {
+    "file": "eval_7b_instruct_diag_r16_fusedqkv_lr1e-6_iter1999_30.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": "/root/models/Qwen2.5-7B-Instruct_lora_sft_diag_r16_fusedqkv_lr1e-6/iter_0001999/adapter",
+    "correct": 19,
+    "total": 30,
+    "accuracy": 0.6333333333333333
+  },
+  {
+    "file": "eval_7b_instruct_diag_r16_fusedqkv_lr2e-6_iter0499_30.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": "/root/models/Qwen2.5-7B-Instruct_lora_sft_diag_r16_fusedqkv_lr2e-6/iter_0000499/adapter",
+    "correct": 19,
+    "total": 30,
+    "accuracy": 0.6333333333333333
+  },
+  {
+    "file": "eval_7b_instruct_zero_lora_r16_30.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": "/tmp/miles_zero_lora_instruct_r16",
+    "correct": 18,
+    "total": 30,
+    "accuracy": 0.6
+  },
+  {
+    "file": "eval_7b_lora_r16_qv_lr5e-5_600.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": "/root/models/Qwen2.5-7B-Instruct_lora_sft_v2_r16_qv_lr5e-5/iter_0001999/adapter",
+    "correct": 243,
+    "total": 600,
+    "accuracy": 0.405
+  },
+  {
+    "file": "eval_7b_lora_r8_qkv_600.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": "/root/models/Qwen2.5-7B-Instruct_lora_sft_smoke/iter_0000999/adapter",
+    "correct": 253,
+    "total": 600,
+    "accuracy": 0.4216666666666667
+  },
+  {
+    "file": "eval_7b_lora_r8_qv_10.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": "/root/models/Qwen2.5-7B-Instruct_lora_sft_smoke/iter_0000999/adapter",
+    "correct": 4,
+    "total": 10,
+    "accuracy": 0.4
+  },
+  {
+    "file": "eval_7b_lora_r8_qv_10_fixed.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": "/root/models/Qwen2.5-7B-Instruct_lora_sft_smoke/iter_0000999/adapter",
+    "correct": 4,
+    "total": 10,
+    "accuracy": 0.4
+  },
+  {
+    "file": "eval_7b_lora_r8_qv_10_fixed2.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": "/root/models/Qwen2.5-7B-Instruct_lora_sft_smoke/iter_0000999/adapter",
+    "correct": 1,
+    "total": 10,
+    "accuracy": 0.1
+  },
+  {
+    "file": "eval_7b_lora_v3_r16_qv_lr1e-5_iter0499_30.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": "/root/models/Qwen2.5-7B-Instruct_lora_sft_v3_r16_qv_lr1e-5/iter_0000499/adapter",
+    "correct": 13,
+    "total": 30,
+    "accuracy": 0.43333333333333335
+  },
+  {
+    "file": "eval_7b_lora_v3_r16_qv_lr1e-5_iter0999_30.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": "/root/models/Qwen2.5-7B-Instruct_lora_sft_v3_r16_qv_lr1e-5/iter_0000999/adapter",
+    "correct": 14,
+    "total": 30,
+    "accuracy": 0.4666666666666667
+  },
+  {
+    "file": "eval_7b_lora_v3_r16_qv_lr1e-5_iter1499_30.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": "/root/models/Qwen2.5-7B-Instruct_lora_sft_v3_r16_qv_lr1e-5/iter_0001499/adapter",
+    "correct": 13,
+    "total": 30,
+    "accuracy": 0.43333333333333335
+  },
+  {
+    "file": "eval_7b_lora_v3_r16_qv_lr1e-5_iter1999_30.summary.json",
+    "model": "Qwen2.5-7B-Instruct",
+    "adapter": "/root/models/Qwen2.5-7B-Instruct_lora_sft_v3_r16_qv_lr1e-5/iter_0001999/adapter",
+    "correct": 13,
+    "total": 30,
+    "accuracy": 0.43333333333333335
+  }
+]

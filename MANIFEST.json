@@ -1,0 +1,130 @@
+{
+  "prepared_on": "2026-11-16",
+  "files": [
+    {
+      "path": ".github/workflows/check.yml",
+      "bytes": 410,
+      "sha256": "a5b49f9b52af1f1fb3b3e5193f1287e84e30f9f7f8b55cbb3cf642e056500cca"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 226,
+      "sha256": "7dfab377705400caf1e56239aa7aab922cf2c7576585aed35de5e45c99a1927b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4006,
+      "sha256": "340ca0d25caea184d491b2f3f4b8fe325320ddeef3d7d620129784bcb28f159c"
+    },
+    {
+      "path": "docs/RUNNING.md",
+      "bytes": 779,
+      "sha256": "9871069381ae38b9767b6ba1fdcb7e4482a7910290ee14db1b69fd9f6e66ec43"
+    },
+    {
+      "path": "docs/miles_base_plain_lora_error_analysis.md",
+      "bytes": 3667,
+      "sha256": "8f41e445fedde8d6c3f2d24ec1a228f9594fff4cad88dc89b1d8b0a2e82eaa0e"
+    },
+    {
+      "path": "docs/miles_base_plain_lora_experiment_report.md",
+      "bytes": 11205,
+      "sha256": "1917124d1ca562be53bcba6db2b777aa3ad1bef27a774a537766cad51a90f184"
+    },
+    {
+      "path": "docs/miles_instruct_lora_regression_diagnosis.md",
+      "bytes": 8821,
+      "sha256": "fb7fff5486cdfe48921a8bf7c3fe77bf3e4ad89c0aa271eb9c8fe4f02de417b8"
+    },
+    {
+      "path": "evidence/all_eval_summaries.json",
+      "bytes": 10038,
+      "sha256": "f8fe79e10b4da1699e551751aa53ed5654887bb11ee27db007c9ed27b0b22fda"
+    },
+    {
+      "path": "evidence/metrics/eval_7b_base_600.summary.json",
+      "bytes": 262,
+      "sha256": "1b42ce98ba747f12744937992ddff61e20b6cbc32dca4505a0557d4108161af1"
+    },
+    {
+      "path": "evidence/metrics/eval_7b_base_plain_lora_v2_r16_qv_lr1e-5_iter0499_600.summary.json",
+      "bytes": 376,
+      "sha256": "3ad168751e8746c1eb2c1a5e1d38762ecaec0380ac31ad17261b48ed782efff7"
+    },
+    {
+      "path": "evidence/metrics/eval_7b_base_plain_lora_v2_r8_qv_lr1e-5_iter1999_600.summary.json",
+      "bytes": 373,
+      "sha256": "e97c23fc94ce892fd42e55244e2879874d0c20d2abe2ef27f7785bcf1c8ea9a1"
+    },
+    {
+      "path": "evidence/metrics/eval_7b_base_plain_raw_600.summary.json",
+      "bytes": 256,
+      "sha256": "049ffbb61047f8506b12ae50f7bc5772eda95e5055ce5d07443b1d91079d3aae"
+    },
+    {
+      "path": "evidence/metrics/eval_7b_lora_r16_qv_lr5e-5_600.summary.json",
+      "bytes": 340,
+      "sha256": "e0b63ffab4aa9a009df4bd25ff59509912420f58a31df6d080516357bf0cab68"
+    },
+    {
+      "path": "evidence/metrics/eval_7b_lora_r8_qkv_600.summary.json",
+      "bytes": 335,
+      "sha256": "ac3dc403eedf418c55f4fa06d3a9dadf4f54b371ead950bff7e109cc1def11fa"
+    },
+    {
+      "path": "evidence/miles_base_plain_lora_error_analysis.json",
+      "bytes": 5806,
+      "sha256": "8ecdd15131d1cce4210e004d5843f46c0c7298e5659ab6084ca97ff2a529c0c6"
+    },
+    {
+      "path": "own/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "own/rollout/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "own/rollout/plain_sft_rollout.py",
+      "bytes": 2115,
+      "sha256": "099bf3c0aa1b06a96b499d90b564999a2cd22720dd269a449373058175c9febc"
+    },
+    {
+      "path": "requirements-eval.txt",
+      "bytes": 48,
+      "sha256": "c4b0b20530347ab8a85998a54345d234d15cacc5d513083da2a2e036eae9393a"
+    },
+    {
+      "path": "scripts/analyze_plain_lora_eval_compare.py",
+      "bytes": 8380,
+      "sha256": "5cf624b45308d81e1fef6bf5c89b1ffdf359bdaed5e013aca38cd6c667eb26ba"
+    },
+    {
+      "path": "scripts/create_math_plain_sft_eval.py",
+      "bytes": 4228,
+      "sha256": "ee7cf5fb106a50b25bd05109ebff8baebcdd9dd9241a29d2cad671609bebd612"
+    },
+    {
+      "path": "scripts/eval_hf_math_plain_lora.py",
+      "bytes": 7076,
+      "sha256": "f5fcbe66cc67ab718e9fa50f25bbd4c954eb51594934dcb4cf08c3667bfea47f"
+    },
+    {
+      "path": "scripts/run-miles-qwen2.5-7B-base-plain-lora-sft-v2-lr1e-5.sh",
+      "bytes": 2821,
+      "sha256": "088935da15a1b35dcc3f3c74d9cfcf39bbe7c7dcb892c0e1b910809edd569974"
+    },
+    {
+      "path": "scripts/run_plain_lora_sft.sh",
+      "bytes": 2419,
+      "sha256": "0d4614b54fd5d0e70686d95ed8ce73ccb70a21942feac049a30a1ba5a8097bcd"
+    },
+    {
+      "path": "scripts/summarize_metrics.py",
+      "bytes": 336,
+      "sha256": "594151782b23c6c446101f4d00cfea597214d9c7d80c1f679e287b2ca4715d11"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+name: Offline artifact checks
+on: [push, pull_request]
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m compileall -q own scripts
+      - run: python scripts/summarize_metrics.py
+      - run: bash -n scripts/run-miles-qwen2.5-7B-base-plain-lora-sft-v2-lr1e-5.sh

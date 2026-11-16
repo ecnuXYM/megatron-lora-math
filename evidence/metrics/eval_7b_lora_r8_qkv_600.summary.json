@@ -1,0 +1,9 @@
+{
+  "model": "/root/models/Qwen2.5-7B-Instruct",
+  "adapter": "/root/models/Qwen2.5-7B-Instruct_lora_sft_smoke/iter_0000999/adapter",
+  "data": "/root/own/data/math_eval_l3_4_core_eval600_seed6060.jsonl",
+  "output": "/root/own/report/eval_7b_lora_r8_qkv_600.jsonl",
+  "correct": 253,
+  "total": 600,
+  "accuracy": 0.4216666666666667
+}

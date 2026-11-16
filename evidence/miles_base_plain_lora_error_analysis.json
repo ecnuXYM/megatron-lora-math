@@ -1,0 +1,212 @@
+{
+  "summary": {
+    "total": 600,
+    "raw_correct": 201,
+    "raw_accuracy": 0.335,
+    "lora_correct": 271,
+    "lora_accuracy": 0.45166666666666666,
+    "absolute_gain": 0.11666666666666667,
+    "fixed": 113,
+    "regressed": 43,
+    "both_correct": 158,
+    "both_wrong": 286,
+    "raw_null": 255,
+    "lora_null": 42,
+    "raw_response_words_mean": 187.14333333333335,
+    "lora_response_words_mean": 79.54333333333334,
+    "raw_response_words_median": 194.0,
+    "lora_response_words_median": 62.0,
+    "missing_raw": 0,
+    "missing_lora": 0
+  },
+  "by_subject": {
+    "Algebra": {
+      "total": 137,
+      "raw_correct": 80,
+      "lora_correct": 99,
+      "raw_null": 33,
+      "lora_null": 1,
+      "fixed": 29,
+      "regressed": 10
+    },
+    "Counting & Probability": {
+      "total": 73,
+      "raw_correct": 18,
+      "lora_correct": 25,
+      "raw_null": 32,
+      "lora_null": 1,
+      "fixed": 13,
+      "regressed": 6
+    },
+    "Intermediate Algebra": {
+      "total": 129,
+      "raw_correct": 23,
+      "lora_correct": 35,
+      "raw_null": 74,
+      "lora_null": 23,
+      "fixed": 21,
+      "regressed": 9
+    },
+    "Number Theory": {
+      "total": 79,
+      "raw_correct": 23,
+      "lora_correct": 25,
+      "raw_null": 29,
+      "lora_null": 4,
+      "fixed": 13,
+      "regressed": 11
+    },
+    "Prealgebra": {
+      "total": 119,
+      "raw_correct": 53,
+      "lora_correct": 75,
+      "raw_null": 37,
+      "lora_null": 6,
+      "fixed": 28,
+      "regressed": 6
+    },
+    "Precalculus": {
+      "total": 63,
+      "raw_correct": 4,
+      "lora_correct": 12,
+      "raw_null": 50,
+      "lora_null": 7,
+      "fixed": 9,
+      "regressed": 1
+    }
+  },
+  "by_level": {
+    "level 3": {
+      "total": 287,
+      "raw_correct": 118,
+      "lora_correct": 144,
+      "raw_null": 98,
+      "lora_null": 20,
+      "fixed": 52,
+      "regressed": 26
+    },
+    "level 4": {
+      "total": 313,
+      "raw_correct": 83,
+      "lora_correct": 127,
+      "raw_null": 157,
+      "lora_null": 22,
+      "fixed": 61,
+      "regressed": 17
+    }
+  },
+  "fixed_examples": [
+    {
+      "unique_id": "hendrycks_math_test_plain_1024",
+      "subject": "Algebra",
+      "level": 4,
+      "label": "920.25",
+      "raw_pred": "910.13",
+      "lora_pred": "920.25",
+      "problem": "How many dollars in interest are earned in two years on a deposit of $\\$$10,000 invested at 4.5$\\%$ and compounded an...",
+      "raw_words": 262,
+      "lora_words": 53
+    },
+    {
+      "unique_id": "hendrycks_math_test_plain_1040",
+      "subject": "Algebra",
+      "level": 4,
+      "label": "84",
+      "raw_pred": null,
+      "lora_pred": "84",
+      "problem": "The solutions of $x(2x-7)=3$ may be expressed in the form $\\frac{m+\\sqrt{n}}{p}$ and $\\frac{m-\\sqrt{n}}{p}$, where $m...",
+      "raw_words": 263,
+      "lora_words": 19
+    },
+    {
+      "unique_id": "hendrycks_math_test_plain_1053",
+      "subject": "Algebra",
+      "level": 4,
+      "label": "-2",
+      "raw_pred": null,
+      "lora_pred": "-2",
+      "problem": "Solve the following system of equations for $c$: \\begin{align*} a - b &= 2 (c+d)\\\\ b &= a-2 \\\\ d &= c+5 \\end{align*}",
+      "raw_words": 146,
+      "lora_words": 85
+    },
+    {
+      "unique_id": "hendrycks_math_test_plain_1101",
+      "subject": "Algebra",
+      "level": 4,
+      "label": "2",
+      "raw_pred": null,
+      "lora_pred": "2",
+      "problem": "For complex numbers $z$, let \\[f(z) = \\left\\{ \\begin{array}{cl} z^{2}&\\text{ if }z\\text{ is not real}, \\\\ z+2 &\\text{...",
+      "raw_words": 277,
+      "lora_words": 59
+    },
+    {
+      "unique_id": "hendrycks_math_test_plain_1135",
+      "subject": "Algebra",
+      "level": 3,
+      "label": "0",
+      "raw_pred": null,
+      "lora_pred": "0",
+      "problem": "What is the greatest integer value of $x$ for which $6x^2 + x - 2 < 0$?",
+      "raw_words": 242,
+      "lora_words": 59
+    }
+  ],
+  "regressed_examples": [
+    {
+      "unique_id": "hendrycks_math_test_plain_1150",
+      "subject": "Algebra",
+      "level": 4,
+      "label": "2",
+      "raw_pred": "2",
+      "lora_pred": "1",
+      "problem": "If $x^2 - x - 1 = 0$, what is the value of $x^3 - 2x + 1$?",
+      "raw_words": 92,
+      "lora_words": 80
+    },
+    {
+      "unique_id": "hendrycks_math_test_plain_1158",
+      "subject": "Algebra",
+      "level": 4,
+      "label": "\\frac{\\sqrt{2}}{20}",
+      "raw_pred": "\\frac{\\sqrt{2}}{20}",
+      "lora_pred": "\\frac{5-2\\sqrt{2}}{40}",
+      "problem": "Rationalize the denominator: $\\frac{1}{\\sqrt{8}+\\sqrt{50}+\\sqrt{18}}$.",
+      "raw_words": 41,
+      "lora_words": 52
+    },
+    {
+      "unique_id": "hendrycks_math_test_plain_1286",
+      "subject": "Counting & Probability",
+      "level": 3,
+      "label": "720",
+      "raw_pred": "720",
+      "lora_pred": "360",
+      "problem": "The Smith family has 4 sons and 3 daughters. In how many ways can they be seated in a row of 7 chairs such that all 3...",
+      "raw_words": 243,
+      "lora_words": 52
+    },
+    {
+      "unique_id": "hendrycks_math_test_plain_1363",
+      "subject": "Counting & Probability",
+      "level": 3,
+      "label": "12",
+      "raw_pred": "12",
+      "lora_pred": "24",
+      "problem": "In how many ways can 5 different keys be placed on a keychain? (Two arrangements are considered the same if one can b...",
+      "raw_words": 183,
+      "lora_words": 57
+    },
+    {
+      "unique_id": "hendrycks_math_test_plain_1428",
+      "subject": "Counting & Probability",
+      "level": 4,
+      "label": "672",
+      "raw_pred": "672",
+      "lora_pred": "105",
+      "problem": "How many ways are there to put five beads on a necklace if there are eight distinct beads to choose from, and rotatio...",
+      "raw_words": 182,
+      "lora_words": 72
+    }
+  ]
+}
